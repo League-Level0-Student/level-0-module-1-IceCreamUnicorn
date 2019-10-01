@@ -24,7 +24,7 @@ public class TheRiddler {
 		// 5. Otherwise, say "wrong" and tell them the answer
 		String riddletwo = JOptionPane.showInputDialog("What goes up but never comes down?");
 		
-		if(riddleone.equals("A rocket ship ")) 
+		if(riddletwo.equals("my IQ")) 
 		{
 			score+=1;
 		}
@@ -34,7 +34,7 @@ public class TheRiddler {
 			}
 		String riddlethree = JOptionPane.showInputDialog("What is 3 + 3?");
 		
-		if(riddleone.equals("69420")) 
+		if(riddlethree.equals("69420")) 
 		{
 			score+=1;
 		}
@@ -42,6 +42,7 @@ public class TheRiddler {
 		{
 		JOptionPane.showMessageDialog(null, "ur bad");
 			}
+		JOptionPane.showMessageDialog(null, "ur score is:" + score);
 		}
 	}
 
